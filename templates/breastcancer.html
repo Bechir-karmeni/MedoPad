@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MedoPad - Covid-19 Detection</title>
+    <link rel="stylesheet" type="text/css" href="../static/Style_Forms.css">
+    <script src="..static/JavaScript/Covid.js"></script>
+</head>
+<body>
+    <div class="signup-container">
+        <div class="left-container">
+            <h1>MedoPad</h1>
+            <br />
+            <br />
+            <br>
+            <img src="../static/Bc.jpeg" alt="">
+            <br>
+            <br>
+            <br>
+            <marquee behavior="30" direction=""><h2>Stay Safe ❤ </h2></marquee>
+            <div class="puppy"></div>
+        </div>
+
+        <div class="right-container">
+            <header>
+                <h1>Breast Cancer Detection</h1>
+            </header>
+
+            <form action="resultbc" class="main-form needs-validation" method="POST" enctype="multipart/form-data">
+                <div class="row">
+                    <div class="col">
+                        <div class='form-group'>
+                            <label for="firstname">First Name</label>
+                            <input type="text" name="firstname" id="firstname" class="form-control" required='True'>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col">
+                        <div class='form-group'>
+                            <label for="lastname">Last Name</label>
+                            <input type="text" name="lastname" id="lastname" class="form-control" required='True'>
+                        </div>
+                    </div>
+                </div>
+        <br>
+                <div class="row">
+                    <div class='col'>
+                        <label for="phone">Phone Number</label>
+                        <input type="number" name="phone" id="phone" class="form-control" required='True'>
+                    </div>
+        
+        <br>
+                    <div class='col'>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" class="form-control" required='True'>
+                    </div>
+                </div>
+        
+        <br>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <select name="gender" id="gender" class="form-control" required='True'>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col">
+                        <div class='form-group'>
+                            <label for="age">Age</label>
+                            <input type="number" name="age" id="age" class="form-control" required='True'>
+                        </div>
+                    </div>
+                </div>
+        <br>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="concave_points_mean">Concave Points Mean</label>
+                            <input type="number" step="any" name="concave_points_mean" id="concave_points_mean" class="form-control"
+                                required='True'>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col">
+                        <div class='form-group'>
+                            <label for="area_mean">Area Mean</label>
+                            <input type="number" step="any" name="area_mean" id="area_mean" class="form-control" required='True'>
+                        </div>
+                    </div>
+                </div>
+                <br>
+        
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="radius_mean">Radius Mean</label>
+                            <input type="number" step="any" name="radius_mean" id="radius_mean" class="form-control" required='True'>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col">
+                        <div class='form-group'>
+                            <label for="perimeter_mean">Perimeter Mean</label>
+                            <input type="number" step="any" name="perimeter_mean" id="perimeter_mean" class="form-control" required='True'>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col">
+                        <div class='form-group'>
+                            <label for="concavity_mean">Concavity Mean</label>
+                            <input type="number" step="any" name="concavity_mean" id="concavity_mean" class="form-control" required='True'>
+                        </div>
+                    </div>
+                </div>
+        
+        
+
+                <div class="text-center">
+                   <center> <button  type="submit" class="btn btn-outline-success" style="width:150px;margin-top: 30px;">Show Me The Result</button> </center>
+                </div>
+
+            </form>
+            <br>
+            <footer id="footer">
+                <div class="container">
+                  <div class="row d-flex align-items-center">
+                    <div class="col-lg-6 text-lg-left text-center">
+                      <div class="copyright">
+                        &copy; Copyright <strong>MedoPad</strong>. All Rights Reserved
+                      </div></div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>

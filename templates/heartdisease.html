@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MedoPad - Covid-19 Detection</title>
+    <link rel="stylesheet" type="text/css" href="../static/Style_Forms.css">
+    <script src="..static/JavaScript/Covid.js"></script>
+</head>
+<body>
+    <div class="signup-container">
+        <div class="left-container">
+            <h1>MedoPad</h1>
+            <br />
+            <br />
+            <br>
+            <img src="../static/Bc.jpeg" alt="">
+            <br>
+            <br>
+            <br>
+            <marquee behavior="30" direction=""><h2>Stay Safe ❤ </h2></marquee>
+            <div class="puppy"></div>
+        </div>
+
+        <div class="right-container">
+            <header>
+                <h1>Heart Disease  Detection</h1>
+            </header>
+
+            <form action="resulth" class="main-form needs-validation" method="POST" enctype="multipart/form-data">
+                <div class="row">
+                    <div class="col">
+                        <div class='form-group'>
+                            <label for="firstname">First Name</label>
+                            <input type="text" name="firstname" id="firstname" class="form-control" required='True'>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col">
+                        <div class='form-group'>
+                            <label for="lastname">Last Name</label>
+                            <input type="text" name="lastname" id="lastname" class="form-control" required='True'>
+                        </div>
+                    </div>
+                </div>
+                <br>
+        
+                <div class='form-group'>
+                    <label for="phone">Phone Number</label>
+                    <input type="number" name="phone" id="phone" class="form-control" required='True'>
+                </div>
+                <br>
+        
+        
+                <div class="row">
+                    <div class="col">
+                        <div class='form-group'>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" class="form-control" required='True'>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <select name="gender" id="gender" class="form-control" required='True'>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <br>
+        
+                <div class='row'>
+        
+                    <div class="col">
+                        <label for="op">Old Peak</label>
+                        <input type="number" step='any' required='True' name='op' id='op' class='form-control'>
+                    </div>
+                    <br>
+                    <div class="col">
+                        <label for="mhra">Max. Heart Rate achieved</label>
+                        <input type='number' step="any" required='True' name='mhra' id='mhra' class='form-control'>
+                    </div>
+        <br>
+        
+                    <div class="col">
+                        <label for="eia">Exercise induces angina</label>
+                        <select required='True' name='eia' id='eia' class='form-control'>
+                            <option value="0">No</option>
+                            <option value="1">Yes</option>
+                        </select>
+                    </div>
+                </div>
+        <br>
+        
+                <div class='row'>
+                    <div class="col">
+                        <label for="nmv"> No. of major vessels</label>
+                        <select required='True' name='nmv' id='nmv' class='form-control'>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="col">
+                        <label for="tcp">Type of Chest Pain</label>
+                        <select  required='True' name='tcp' id='tcp' class='form-control'>
+                            <option value="0">typical angina</option>
+                            <option value="1">atypical angina</option>
+                            <option value="2">non-anginal pain</option>
+                            <option value="3">asymptomatic</option>
+                        </select>
+                    </div>
+        <br>
+        
+                    <div class="col">
+                        <label for="age">Age</label>
+                        <input type="number" name="age" id="age" class="form-control" required='True'>
+                    </div>
+        <br>
+                    <div class="col">
+                        <label for="thal">Thal</label>
+                        <select required='True' name='thal' id='thal' class='form-control'>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+<br>
+                <div class="text-center">
+                   <center> <button  type="submit" class="btn btn-outline-success" style="width:150px;margin-top: 30px;">Show Me The Result</button> </center>
+                </div>
+
+            </form>
+            <br>
+            <footer id="footer">
+                <div class="container">
+                  <div class="row d-flex align-items-center">
+                    <div class="col-lg-6 text-lg-left text-center">
+                      <div class="copyright">
+                        &copy; Copyright <strong>MedoPad</strong>. All Rights Reserved
+                      </div></div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
