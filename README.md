@@ -51,8 +51,7 @@ merging the power of AI with compassionate and personalized medical solutions.
 
 ## Demo
 
-file:///home/dell/Vid%C3%A9os/Captures%20vid%C3%A9o/Capture%20vid%C3%A9o%20du%2014%20%D8%AC%D8%A7%D9%86%D9%81%D9%8A,%202024%20CET%2001:55:03%20%D8%B5.webm
-
+[Demo MedoPad](https://github.com/Bechir-karmeni/MedoPad/assets/92125959/def3354c-b48c-4b18-8ba8-e18feffc2025)
 
 
 ## Run Locally
