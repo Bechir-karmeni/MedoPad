@@ -54,6 +54,7 @@ merging the power of AI with compassionate and personalized medical solutions.
 file:///home/dell/Vid%C3%A9os/Captures%20vid%C3%A9o/Capture%20vid%C3%A9o%20du%2014%20%D8%AC%D8%A7%D9%86%D9%81%D9%8A,%202024%20CET%2001:55:03%20%D8%B5.webm
 
 
+
 ## Run Locally
 
 Clone the project
