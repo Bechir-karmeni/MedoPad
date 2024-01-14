@@ -1,5 +1,5 @@
 
-# Project Title
+# MedoPad
 
 Medopad is an application that uses artificial intelligence to detect 7 different diseases,
 offering users a practical solution for regular monitoring of their health. This application has been designed to improve the accessibility and convenience of medical testing
